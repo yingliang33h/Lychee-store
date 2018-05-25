@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <div class="mainNav">
 	<div class="navmenu">
-		<div class="categories" id = "public_cate">
+		<div class="categories" id="public_cate">
 			<div class="dt">
 				<a name="sfbest_hp_hp_menu_all" class="trackref topall"
 					href="javascript:void(0)">Choose By Category</a>
@@ -43,9 +43,9 @@
 								<div class="cat-sort">
 									<dl>
 										<dt>
-											<strong><a
-												name="sfbest_Uhead_Uhead_menu_category1-2" class="trackref"
-												href="javascript:void(0)" target="_blank">Meat </a></strong>
+											<strong><span
+												name="sfbest_Uhead_Uhead_menu_category1-2" class="trackref">Meat
+											</span></strong>
 										</dt>
 										<dd>
 											<a name="sfbest_Uhead_Uhead_menu_category1-2"
@@ -74,9 +74,9 @@
 									</dl>
 									<dl>
 										<dt>
-											<strong><a
-												name="sfbest_Uhead_Uhead_menu_category1-10" class="trackref"
-												href="javascript:void(0)">Seafood </a></strong>
+											<strong><span
+												name="sfbest_Uhead_Uhead_menu_category1-10" class="trackref">Seafood
+											</span></strong>
 										</dt>
 										<dd>
 											<a name="sfbest_Uhead_Uhead_menu_category1-11"
@@ -135,9 +135,8 @@
 								<div class="cat-sort">
 									<dl>
 										<dt>
-											<strong><a name="sfbest_hp_hp_menu_category2-8"
-												class="trackref"
-												href="http://www.e3mall.cn/fresh/57-0-0-0-0-2-0-0-0-0-0.html">Salad</a></strong>
+											<strong><span name="sfbest_hp_hp_menu_category2-8"
+												class="trackref">Salad</span></strong>
 										</dt>
 										<dd>
 											<a style="color: #fa6400;"
@@ -151,9 +150,8 @@
 									</dl>
 									<dl>
 										<dt>
-											<strong><a name="sfbest_hp_hp_menu_category2-13"
-												class="trackref"
-												href="http://search.lycheeStore.net/search.html?keyword=soup">Soups</a></strong>
+											<strong><span name="sfbest_hp_hp_menu_category2-13"
+												class="trackref">Soups</span></strong>
 										</dt>
 										<dd>
 											<a name="sfbest_hp_hp_menu_category2-14" class="trackref"
@@ -171,7 +169,8 @@
 									</dl>
 								</div>
 								<a name="sfbest_hp_hp_menu_category2-banner" class="trackref"
-									href="javascript:void(0)" target="_blank">
+									href="http://item.lycheestore.net/item/152710185692927.html"
+									target="_blank">
 									<div class="i-img">
 										<img src="/images/html/p1.jpg">
 									</div>
@@ -205,8 +204,8 @@
 								<div class="cat-sort">
 									<dl>
 										<dt>
-											<strong><a name="sfbest_hp_hp_menu_category3-1"
-												class="trackref" href="javascript:void(0)">Fruit</a></strong>
+											<strong><span name="sfbest_hp_hp_menu_category3-1"
+												class="trackref">Fruit</span></strong>
 										</dt>
 										<dd>
 											<a name="sfbest_hp_hp_menu_category3-3" class="trackref"
@@ -225,14 +224,10 @@
 									</dl>
 									<dl>
 										<dt>
-											<strong><a
-												name="sfbest_Uhead_Uhead_menu_category3-21" class="trackref"
-												href="javascript:void(0)">Vegetables</a></strong>
+											<strong><span
+												name="sfbest_Uhead_Uhead_menu_category3-21" class="trackref">Vegetables</span></strong>
 										</dt>
 										<dd>
-											<a name="sfbest_Uhead_Uhead_menu_category3-22"
-												class="trackref"
-												href="http://search.lycheeStore.net/search/organic.html">Organic</a>
 											<a name="sfbest_Uhead_Uhead_menu_category3-23"
 												class="trackref"
 												href="http://item.lycheeStore.net/item/152407863978585.html">Onions
@@ -268,7 +263,6 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="item">
 						<span class="i-master">
 							<h3 class="dev">
@@ -299,9 +293,8 @@
 
 									<dl>
 										<dt>
-											<strong><a
-												name="sfbest_Uhead_Uhead_menu_category5-7" class="trackref"
-												href="javascript:void(0)">Nuts</a></strong>
+											<strong><span
+												name="sfbest_Uhead_Uhead_menu_category5-7" class="trackref">Nuts</span></strong>
 										</dt>
 										<dd>
 											<a name="sfbest_Uhead_Uhead_menu_category5-8"
@@ -323,10 +316,9 @@
 									</dl>
 									<dl>
 										<dt>
-											<strong><a
-												name="sfbest_Uhead_Uhead_menu_category5-19" class="trackref"
-												href="javascript:void(0)">Cookies
-											</a></strong>
+											<strong><span
+												name="sfbest_Uhead_Uhead_menu_category5-19" class="trackref">Cookies
+											</span></strong>
 										</dt>
 										<dd>
 											<a name="sfbest_Uhead_Uhead_menu_category5-20"
@@ -338,12 +330,12 @@
 												Chip</a> <a name="sfbest_Uhead_Uhead_menu_category5-22"
 												class="trackref"
 												href="http://search.lycheeStore.net/search.html?keyword=Butter">Peanut
-												Butter</a> 
+												Butter</a>
 									</dl>
 								</div>
 								<a name="sfbest_Uhead_Uhead_menu_category5-banner"
 									class="trackref"
-									href="http://www.e3mall.cn/html/activity/1471829854.html"
+									href="http://item.lycheeStore.net/item/152709917062558.html"
 									target="_blank">
 									<div class="i-img">
 										<img src="/images/html/p7.jpg">
@@ -355,7 +347,6 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="item">
 						<span class="i-master">
 							<h3 class="dev">
@@ -383,9 +374,8 @@
 								<div class="cat-sort">
 									<dl>
 										<dt>
-											<strong><a name="sfbest_hp_hp_menu_category4-1"
-												class="trackref"
-												href="javascript:void(0)">Juice</a></strong>
+											<strong><span name="sfbest_hp_hp_menu_category4-1"
+												class="trackref">Juice</span></strong>
 										</dt>
 										<dd>
 											<a name="sfbest_hp_hp_menu_category4-2" class="trackref"
@@ -408,10 +398,8 @@
 									</dl>
 									<dl>
 										<dt>
-											<strong><a name="sfbest_hp_hp_menu_category4-1"
-												class="trackref"
-												href="javascripts:void(0)">Sports
-													Drinks</a></strong>
+											<strong><span name="sfbest_hp_hp_menu_category4-1"
+												class="trackref">Sports Drinks</span></strong>
 										</dt>
 										<dd>
 											<a name="sfbest_hp_hp_menu_category4-2" class="trackref"
@@ -423,7 +411,7 @@
 								</div>
 								<a name="sfbest_Uhead_Uhead_menu_category6-banner"
 									class="trackref"
-									href="http://www.e3mall.cn/html/activity/1472106644.html"
+									href="http://item.lycheestore.net/item/152541769388557.html"
 									target="_blank">
 									<div class="i-img">
 										<img src="/images/html/p5.jpg">
@@ -465,10 +453,9 @@
 
 									<dl>
 										<dt>
-											<strong><a
-												name="sfbest_Uhead_Uhead_menu_category4-11" class="trackref"
-												href="javascript:void(0)">Wine
-											</a></strong>
+											<strong><span
+												name="sfbest_Uhead_Uhead_menu_category4-11" class="trackref">Wine
+											</span></strong>
 										</dt>
 										<dd>
 											<a name="sfbest_Uhead_Uhead_menu_category4-12"
@@ -492,9 +479,8 @@
 									</dl>
 									<dl>
 										<dt>
-											<strong><a
-												name="sfbest_Uhead_Uhead_menu_category4-22" class="trackref"
-												href="http://search.lycheeStore.net/search.html?keyword=beer">Beers</a></strong>
+											<strong><span
+												name="sfbest_Uhead_Uhead_menu_category4-22" class="trackref">Beers</span></strong>
 										</dt>
 										<dd>
 											<a name="sfbest_Uhead_Uhead_menu_category4-23"
@@ -515,7 +501,7 @@
 								</div>
 								<a name="sfbest_Uhead_Uhead_menu_category4-banner"
 									class="trackref"
-									href="javascript:void(0)"
+									href="http://item.lycheestore.net/item/152710236476721.html"
 									target="_blank">
 									<div class="i-img">
 										<img src="/images/html/p4.jpg">
@@ -554,10 +540,9 @@
 								<div class="cat-sort">
 									<dl>
 										<dt>
-											<strong><a
-												name="sfbest_Uhead_Uhead_menu_category7-1" class="trackref"
-												href="javascript:void(0)">Milk
-													& Cream</a></strong>
+											<strong><span
+												name="sfbest_Uhead_Uhead_menu_category7-1" class="trackref">Milk
+													& Cream</span></strong>
 										</dt>
 										<dd>
 											<a name="sfbest_Uhead_Uhead_menu_category7-2"
@@ -569,29 +554,29 @@
 												Milk</a> <a style="color: #fa6400;"
 												name="sfbest_Uhead_Uhead_menu_category7-6" class="trackref"
 												href="http://search.lycheeStore.net/search.html?keyword=Yogurt">Yogurt
-												</a>
+											</a>
 										</dd>
 									</dl>
 									<dl>
 										<dt>
-											<strong><a
-												name="sfbest_Uhead_Uhead_menu_category7-7" class="trackref"
-												href="javascript:void(0)">Cheese</a></strong>
+											<strong><span
+												name="sfbest_Uhead_Uhead_menu_category7-7" class="trackref">Cheese</span></strong>
 										</dt>
 										<dd>
 											<a name="sfbest_Uhead_Uhead_menu_category7-8"
 												class="trackref"
-												href="http://item.lycheeStore.net/item/152403751295586.html">Shredded Cheese</a>
-											< <a name="sfbest_Uhead_Uhead_menu_category7-10"
+												href="http://item.lycheeStore.net/item/152403751295586.html">Shredded
+												Cheese</a> < <a name="sfbest_Uhead_Uhead_menu_category7-10"
 												class="trackref"
 												href="http://item.lycheeStore.net/item/152403726997048.html">Blue
-												Cheese</a> 
+												Cheese</a>
 										</dd>
 									</dl>
 								</div>
 								<a name="sfbest_Uhead_Uhead_menu_category7-banner"
 									class="trackref"
-									href="javascript:void(0)";
+									href="http://item.lycheestore.net/item/152710269869290.html"
+									;
 									target="_blank">
 									<div class="i-img">
 										<img src="/images/html/p3.jpg">
@@ -630,9 +615,8 @@
 								<div class="cat-sort">
 									<dl>
 										<dt>
-											<strong><a
-												name="sfbest_Uhead_Uhead_menu_category8-1" class="trackref"
-												href="javascript:void(0)">Breads</a></strong>
+											<strong><span
+												name="sfbest_Uhead_Uhead_menu_category8-1" class="trackref">Breads</span></strong>
 										</dt>
 										<dd>
 											<a name="sfbest_Uhead_Uhead_menu_category8-2"
@@ -650,7 +634,7 @@
 								</div>
 								<a name="sfbest_Uhead_Uhead_menu_category8-banner"
 									class="trackref"
-									href="http://www.e3mall.cn/html/products/219/1100218491.html"
+									href="http://item.lycheestore.net/item/152710297930362.html"
 									target="_blank">
 									<div class="i-img">
 										<img src="/images/html/p6.jpg">
@@ -663,26 +647,20 @@
 						</div>
 					</div>
 				</div>
-				<!----百度统计代码开始------->
-
-				<!----百度统计代码结束------->
 			</div>
 		</div>
 		<!----menufloat------->
 		<div class="menu1">
 			<ul>
-				<li><a name="sfbest_hp_hp_nav_nav1" href=http://www.lycheeStore.net/
-					class="trackref btndown">Home</a></li>
-
-				<li id="cat1"><a name="sfbest_hp_hp_nav_nav3" class="trackref"
-					href="http://search.lycheeStore.net/search/list.html">Today's Deal</a></li>
+				<li><a name="sfbest_hp_hp_nav_nav1"
+					href="http://www.lycheeStore.net/" class="trackref btndown">Home</a></li>
+				<li><a target="_blank"
+					href="http://search.lycheeStore.net/search/list.html">All
+						Products</a></li>
 				<li><a href="http://search.lycheeStore.net/search/organic.html"
 					target="_blank">Organic</a></li>
-				<li><a target="_blank"
-					href="http://search.lycheeStore.net/search/list.html">All Products</a></li>
-				<li><a target="_blank"
-					href="/html/activity/1470121728.html#trackref=sfbest_hp_hp_nav_nav12">About
-						Us</a></li>
+				<li id="cat1"><a name="sfbest_hp_hp_nav_nav3" class="trackref"
+					href="http://search.lycheestore.net/search.html?keyword=meat+%26+Vegetables">Fresh</a></li>
 			</ul>
 		</div>
 		<span class="clear"></span>

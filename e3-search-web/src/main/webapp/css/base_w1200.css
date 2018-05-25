@@ -192,6 +192,8 @@ margin:10px 0 0 0;
 .nmtotal {float: right;}
 .nmtotal font {color: #EA5404;font-size: 14px;font-weight: bold;}
 .nmtotal a:link {color:#999999;}
+#topCart.hover .outline{z-index:1;left:0;width:154px;height:8px;top:28px;border:0 none;}
+#topCart.hover .t{color:#666666;}
 #topCart .setCart{background:url() no-repeat -102px -235px; margin:2px 0 0 0;}
 #cart_lists{display:none;width:360px;right:-1px;_right:-2px;-moz-box-shadow:0 0 5px #efefef;-webkit-box-shadow:0 0 5px #efefef;box-shadow:0 0 5px #dadada;top:34px;}
 #cart_lists .btn{display:none;}
@@ -370,6 +372,8 @@ a.submit5:hover{color:#fff;background:url(../images/productinfo.png) no-repeat -
 .pageFooter .right ul li.title .style_b{background-position:-39px -5px;}
 .pageFooter .right ul li.title .style_c{background-position:-74px -5px;}
 .pageFooter .right ul li.title .style_d{background-position:-109px -5px;}
+
+
 #footer{line-height:18px;color:#969696;width:100%; overflow:hidden;}
 #footer a{color:#646464; text-decoration:none;}
 #footer a:hover{ color:#669900; text-decoration:none;}

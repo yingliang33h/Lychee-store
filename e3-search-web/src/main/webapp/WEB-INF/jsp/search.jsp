@@ -1,8 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<%@ page trimDirectiveWhitespaces="true"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page trimDirectiveWhitespaces="true" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -14,12 +13,6 @@
 <link rel="stylesheet" type="text/css" href="/css/common.css" />
 <link rel="stylesheet" type="text/css" href="/css/jquery.alerts.css" />
 <script type="text/javascript" src="/js/jquery-1.5.1.min.js"></script>
-<script type="text/javascript" src="/js/common.js?v=20160713"></script>
-	<script type="text/javascript" src="/js/cart.js?v=20160713"></script>
-	<script type="text/javascript" src="/js/jquery.alerts.js"></script>
-	<script type="text/javascript" src="/js/NewVersion.js?v=20160713"></script>
-	<script type="text/javascript" src="/js/cookie.js?v=20160416222"></script>
-	<script type="text/javascript" src="/js/shadow.js?v=20160416"></script>
 </head>
 <body>
 	<!-- header start -->
@@ -28,9 +21,9 @@
 	<!-------面包线 linknav--------->
 	<div class="linknav">
 		<div class="schArticle">
-			<a href="/article/search?keyword=%E6%9C%88%E9%A5%BC" target="_blank">for“<span>${query}</span>”we
+			<p target="_blank">for“<span>${query}</span>”we
 				have <span id="articlenum">${recourdCount } </span>items&gt;&gt;
-			</a>
+			</p>
 		</div>
 		<div class="breadcrumb">
 			<span>Results&nbsp;&gt;&nbsp;${query}</span>
@@ -102,9 +95,7 @@
 				<div class="cm">
 					<div class="catitem" style="border-top-width: 0px;">
 						<h3>
-							<b></b><a
-								href="/productlist/search/?categoryId=8&amp;keyword=%E6%9C%88%E9%A5%BC&amp;o=saleNum%3Adesc"
-								class="">Meat<span>（1）</span></a>
+							<b></b><a class="" onclick="alert('Coming Soon!')">Meat<span>（1）</span></a>
 						</h3>
 						<ul>
 							<li><a
@@ -115,9 +106,8 @@
 					</div>
 					<div class="catitem">
 						<h3>
-							<b></b><a
-								href="/productlist/search/?categoryId=6&amp;keyword=%E6%9C%88%E9%A5%BC&amp;o=saleNum%3Adesc"
-								class="">Seefood<span>（35）</span></a>
+							<b></b><a class="" onclick="alert('Coming Soon!')">Seefood<span>（35）</span></a>Seefood<span>（35）</span></a>
+							
 						</h3>
 						<ul>
 							<li><a
@@ -139,8 +129,15 @@
 
 
 		</div>
-	</div>
+
 
 	<jsp:include page="commons/footer.jsp" />
-</body>
+	<script type="text/javascript" src="/js/common.js?v=20160713"></script>
+	<script type="text/javascript" src="/js/cart.js?v=20160713"></script>
+	<script type="text/javascript" src="/js/jquery.alerts.js"></script>
+	<script type="text/javascript" src="/js/NewVersion.js?v=20160713"></script>
+	<script type="text/javascript" src="/js/cookie.js?v=20160416222"></script>
+	<script type="text/javascript" src="/js/shadow.js?v=20160416"></script>
+
+	</div>
 </html>

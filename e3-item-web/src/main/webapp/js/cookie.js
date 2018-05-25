@@ -81,7 +81,7 @@ $(function(){
 	$("#public_cate").live("mouseenter",function(){
 		var dhDivObj = $("#allSort");
 		if(dhlist==1){
-			$.get("",{},function(data) {
+			$.get("/html/web/_public/_ajaxStaticMenu.html?v20140430",{},function(data) {
 				dhDivObj.html(data);
 				dhlist = 2;
 			});
@@ -123,7 +123,7 @@ $(function(){
 	}
 	//右侧浮动
 	if(ZnowTime >= 1414771200000 && ZnowTime<=1416239999000){
-		$('.index_rfloat').html('<a href="/html/activity/1414059494.html" target="_blank"><img src=""></a><div class="J_rclose">关闭</div>');
+		$('.index_rfloat').html('<a href="/html/activity/1414059494.html" target="_blank"><img src="http://p.e3mall.cn/gold/images/20141113/20141113111801929.jpg"></a><div class="J_rclose">关闭</div>');
 		$('.index_rfloat').show();
 	}
 	$('.app-android').attr('href','http://android.e3mall.cn/sfandroid');
@@ -145,7 +145,7 @@ function isOnline(wwwurl,homeurl,passporturl){
 	$.getJSON( wwwurl+"/ajax/isOnline/?callback=?", function( data ) {
 		if (data.welcome){
 			passporturl = passporturl.replace('https', 'http');
-			$('#login').html('<span class="logininfo"> '+data.welcome+'</span> <a href="'+passporturl+'/service/logout/?returnUrl='+escape(document.location.href)+'">[Logout]</a>'); 
+			$('#login').html('<span class="logininfo"> '+data.welcome+'</span> <a href="'+passporturl+'/service/logout/?returnUrl='+escape(document.location.href)+'">[退出]</a>'); 
 		}else{
 			//var nickName = decodeURI(getCookie('_nickName'));
 			var nickName = decodeURI(decodeURI(escape(getCookie('_nickName'))));

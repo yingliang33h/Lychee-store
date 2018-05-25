@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <div class="mainNav">
 	<div class="navmenu">
-		<div class="categories" id = "public_cate">
+		<div class="categories" id="public_cate">
 			<div class="dt">
 				<a name="sfbest_hp_hp_menu_all" class="trackref topall"
 					href="javascript:void(0)">Choose By Category</a>
@@ -263,7 +263,6 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="item">
 						<span class="i-master">
 							<h3 class="dev">
@@ -348,7 +347,6 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="item">
 						<span class="i-master">
 							<h3 class="dev">
@@ -649,9 +647,6 @@
 						</div>
 					</div>
 				</div>
-				<!----百度统计代码开始------->
-
-				<!----百度统计代码结束------->
 			</div>
 		</div>
 		<!----menufloat------->
