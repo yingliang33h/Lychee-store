@@ -15,11 +15,12 @@
 <link rel="stylesheet" type="text/css" href="/css/jquery.alerts.css" />
 <script type="text/javascript" src="/js/jquery-1.5.1.min.js"></script>
 <script type="text/javascript" src="/js/common.js?v=20160713"></script>
-	<script type="text/javascript" src="/js/cart.js?v=20160713"></script>
-	<script type="text/javascript" src="/js/jquery.alerts.js"></script>
-	<script type="text/javascript" src="/js/NewVersion.js?v=20160713"></script>
-	<script type="text/javascript" src="/js/cookie.js?v=20160416222"></script>
-	<script type="text/javascript" src="/js/shadow.js?v=20160416"></script>
+<script type="text/javascript" src="/js/cart.js?v=20160713"></script>
+<script type="text/javascript" src="/js/jquery.alerts.js"></script>
+<script type="text/javascript" src="/js/NewVersion.js?v=20160713"></script>
+<script type="text/javascript" src="/js/cookie.js?v=20160416222"></script>
+<script type="text/javascript" src="/js/shadow.js?v=20160416"></script>
+<script type="text/javascript" src="/js/global_index.js"></script>
 </head>
 <body>
 	<!-- header start -->
@@ -28,8 +29,8 @@
 	<!-------面包线 linknav--------->
 	<div class="linknav">
 		<div class="schArticle">
-			<span  target="_blank">for“<span>${query}</span>”we
-				have <span id="articlenum">${recourdCount } </span>items&gt;&gt;
+			<span target="_blank">for“<span>${query}</span>”we have <span
+				id="articlenum">${recourdCount } </span>items&gt;&gt;
 			</span>
 		</div>
 		<div class="breadcrumb">
@@ -60,8 +61,8 @@
 							<div class="l-wrap">
 								<div class="pic">
 									<a class="trackref"
-										href="http://item.lycheeStore.net/item/${item.id}.html" title=""
-										target="_blank"> <img src="${item.images[0] }"
+										href="http://item.lycheeStore.net/item/${item.id}.html"
+										title="" target="_blank"> <img src="${item.images[0] }"
 										style="display: inline" />
 									</a>
 								</div>
@@ -102,17 +103,14 @@
 				<div class="cm">
 					<div class="catitem" style="border-top-width: 0px;">
 						<h3>
-							<b></b><a onClick="alert('Coming Soon!')"
-								class="">Meat<span>（1）</span></a>
+							<b></b><a onClick="alert('Coming Soon!')" class="">Meat<span>（1）</span></a>
 						</h3>
 					</div>
 					<div class="catitem">
 						<h3>
-							<b></b><a
-								onClick="alert('Coming Soon!')"
-								class="">Seefood<span>（35）</span></a>
+							<b></b><a onClick="alert('Coming Soon!')" class="">Seefood<span>（35）</span></a>
 						</h3>
-				
+
 					</div>
 				</div>
 			</div>

@@ -22,6 +22,7 @@
  <script type="text/javascript" src="/js/cookie.js?v=20160416222"></script>
 <script type="text/javascript" src="/js/shadow.js?v=20160416"></script>
 <script type="text/javascript" src="/js/common.js"></script>
+<script type="text/javascript" src="/js/global_index.js"></script>
 
 
    <title>My Cart-Lychee Store</title>

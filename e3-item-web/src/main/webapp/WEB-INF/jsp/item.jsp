@@ -24,6 +24,7 @@
 <script type="text/javascript" src="/js/cookie.js?v=20160416222"></script>
 <script type="text/javascript" src="/js/shadow.js?v=20160416"></script>
 <script src="/js/product.js?v=20160713" type="text/javascript"></script>
+<script type="text/javascript" src="/js/global_index.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/base_w1200.css?v=20160713">
 <link rel="stylesheet" type="text/css" href="/css/product.css?v=20160713">
 <link rel="stylesheet" type="text/css" href="/css/jquery.alerts.css?v=20160713" />
@@ -172,16 +173,16 @@
                         <div class="pPercent" id="sorce-star-sf"><dl><dt>5 Star</dt><dd class="pBar"><div style="width:100px;"></div></dd><dd>100%</dd></dl><dl><dt>3 Star</dt><dd class="pBar"><div style="width:0px;"></div></dd><dd>0%</dd></dl><dl><dt>1 Star</dt><dd class="pBar"><div style="width:0px;"></div></dd><dd>0%</dd></dl></div>
                         <div class="pBtns">
                             <div>
-                                <a class="pbtn2" href="javascript:Goods.gotoPl()" rel="nofollow">Write a review.</a>
+                                <a class="pbtn2" onclick="alert('Coming Soon!')" rel="nofollow">Write a review.</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="commentAll" id="comment-filter-sf">
                   <h3 class="curr"><a href="javascript:;" data-type="0">All Reviews<font>(0)</font></a></h3>
-                  <h3><a href="javascript:;" data-type="1">5 Star<font>(0)</font></a></h3>
-                  <h3><a href="javascript:;" data-type="2">3 Star<font>(0)</font></a></h3>
-                  <h3><a href="javascript:;" data-type="3">1 Star<font>(0)</font></a></h3>
+                  <h3><a onclick="alert('Coming Soon!')" data-type="1">5 Star<font>(0)</font></a></h3>
+                  <h3><a onclick="alert('Coming Soon!')" data-type="2">3 Star<font>(0)</font></a></h3>
+                  <h3><a onclick="alert('Coming Soon!')" data-type="3">1 Star<font>(0)</font></a></h3>
                   
                 </div>
                 <div id="have-none-comments" style="padding-left:10px;">Be the first to review！</div><ul class="pComment" id="comment-lists-sf"></ul>

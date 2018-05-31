@@ -20,6 +20,7 @@
 	<script type="text/javascript" src="/js/NewVersion.js?v=20160713"></script>
 	<script type="text/javascript" src="/js/cookie.js?v=20160416222"></script>
 	<script type="text/javascript" src="/js/shadow.js?v=20160416"></script>
+	<script type="text/javascript" src="/js/global_index.js"></script>
 </head>
 <body>
 	<!-- header start -->
