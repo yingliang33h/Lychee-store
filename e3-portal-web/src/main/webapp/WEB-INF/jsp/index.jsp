@@ -102,19 +102,19 @@
 						style="display: inline;"></a>
 				</c:forEach>  --%>
 				<a name="sfbest_hp_hp_focus_right-ad1" class="a-img r-img1 trackref"
-					href="http://item.lycheeStore.net/item/152429199939946.html"
+					href="http://localhost:8086/item/152429199939946.html"
 					target="_blank"> <img alt="Mooncake"
 					src="http://13.78.129.109/group1/M00/00/00/wKjvgVra2dOAH1j1AACOElev0ic149.jpg">
 					<div class="rmask"></div>
 				</a> <a name="sfbest_hp_hp_focus_right-ad2"
 					class="a-img r-img2 trackref"
-					href="http://item.lycheeStore.net/item/152429249049153.html"
+					href="http://localhost:8086/item/152429249049153.html"
 					target="_blank"> <img s="" alt="8.30-9.5"
 					src="http://13.78.129.109/group1/M00/00/00/wKjvgVra2pKASmOYAACcNTNQjbA971.jpg">
 					<div class="rmask"></div>
 				</a> <a name="sfbest_hp_hp_focus_right-ad3"
 					class="a-img r-img3 trackref"
-					href="http://search.lycheeStore.net/search.html?keyword=fruit"
+					href="http://localhost:8085/search.html?keyword=fruit"
 					target="_blank"> <img alt="Fruits"
 					src="http://13.78.129.109/group1/M00/00/00/wKjvgVra272AOZWvAAVWd9dRRnE019.jpg">
 					<div class="rmask"></div>

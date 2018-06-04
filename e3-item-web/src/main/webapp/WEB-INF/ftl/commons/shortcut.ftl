@@ -4,9 +4,9 @@
     <ul class="fr topTh">
       <li class="login" id="login">
       	<span id="loginbar" style="margin-right: 15px;">
-	      	<a href="http://sso.lycheeStore.net/page/login">Log In</a>
+	      	<a href="http://localhost:8088/page/login">Log In</a>
       	</span>
-      	<a href="http://sso.lycheeStore.net/page/register">Register</a>
+      	<a href="http://localhost:8088/page/register">Register</a>
       </li>
       <!--<li id='qiyeLogin'><a href='http://www.sfme.me/login.jhtml' target='_blank' rel='nofollow'>员工福利</a></li>-->
       <li class="myOrder"><a name="sfbest_hp_hp_head_OrderList" class="trackref" href="http://home.e3mall.cn/myorder/index/" rel="nofollow">My Orders</a></li>

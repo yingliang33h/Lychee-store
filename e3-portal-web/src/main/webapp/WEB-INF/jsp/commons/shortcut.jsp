@@ -6,8 +6,8 @@
 		<ul class="fr topTh">
 			<li class="login" id="login"><span id="loginbar"
 				style="margin-right: 15px;"> <a
-					href="http://sso.lycheeStore.net/page/login">Log In</a>
-			</span> <a href="http://sso.lycheeStore.net/page/register">Register</a></li>
+					href="http://localhost:8088/page/login">Log In</a>
+			</span> <a href="http://localhost:8088/page/register">Register</a></li>
 			<li class="myOrder"><a name="sfbest_hp_hp_head_OrderList"
 				class="trackref" href="#" rel="nofollow"
 				onClick="alert('Coming Soon!')">My Orders</a></li>

@@ -25,7 +25,7 @@
 			<h3 class="cartMy">Successfully added items to your cart!</h3>
 			<div class="cartJsuan">
 				<input type="button" class="goshop" onclick="window.history.back();return false;" value="Continue Shopping"/>
-				<input type="button" class="jiesuan youxuan" onclick="location.href='http://cart.lycheeStore.net/cart/cart.html'" value="Proceed to checkout"/>
+				<input type="button" class="jiesuan youxuan" onclick="location.href='http://localhost:8090/cart/cart.html'" value="Proceed to checkout"/>
 			</div>
 		</div>
 

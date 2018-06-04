@@ -775,10 +775,10 @@
 
 				<li id="cat1"><a name="sfbest_hp_hp_nav_nav3" class="trackref"
 					href="/fresh/">Today's Deal</a></li>
-				<li><a href="http://search.lycheeStore.net/search/organic.html"
+				<li><a href="http://localhost:8085/search/organic.html"
 					target="_blank">Organic</a></li>
 				<li><a target="_blank"
-					href="http://search.lycheeStore.net/search/list.html">All Products</a></li>
+					href="http://localhost:8085/search/list.html">All Products</a></li>
 				<li><a target="_blank"
 					href="/html/activity/1470121728.html#trackref=sfbest_hp_hp_nav_nav12">About
 						Us</a></li>

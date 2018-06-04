@@ -83,15 +83,6 @@
                         </div>
                         <div class="pBtn" id="cart-add-btn-sf"><a onclick="cartAdd(${item.id}, 0, 1, 0, 1, this);"><b></b>Add to Cart</a></div>
                         <div class="pBtn quickBuy" style="display: none;" id="quickBuy" title="Buy by One Click"><a onclick="oneKeyBuy(${item.id}, 0, 1, 0, 1, this);">One Click Purchase</a></div>
-						<!-- <div class="yj_time" id="sendTime">预计发货时间：<br>2014-02-28 08:59</div> -->
-					<!-- 	<div class="phone_client phone_border"><div id="phone_time">扫描下载客户端<br><em>先摇券 后买单</em></div>
-							手机二维码显示层
-							<div class="phone_clientCode" style="display:none;">
-								<a href="javascript:void(0)" class="ac_phoneClose" title="关闭"></a>
-								
-							</div>
-							结束手机二维码显示层
-						</div> -->
                         <span class="clear"></span>
                     </div>
                     <div class="chooseBtns" id="buy-nogood-sf" style="display:none">

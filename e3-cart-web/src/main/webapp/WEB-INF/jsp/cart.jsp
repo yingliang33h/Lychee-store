@@ -65,13 +65,13 @@
 						</div>
 						<div class="pItem pGoods">
 							<div class="cart_pimg">
-								<a target="_blank" title="${cart.title }" href="http://item.lycheeStore.net/item/${cart.id }.html">
+								<a target="_blank" title="${cart.title }" href="http://localhost:8086/item/${cart.id }.html">
 								<img src="${cart.image }" style="width: 60px;height: 60px;"/>
 								</a>
 							</div>
 							<div class="cart_pname">
 								<div>
-								<a target="_blank" href="http://item.lycheeStore.net/item/${cart.id }.html">${cart.title }</a>
+								<a target="_blank" href="http://localhost:8086/item/${cart.id }.html">${cart.title }</a>
 								</div>
 							</div>
 						</div>
@@ -118,7 +118,7 @@
       </div>
       <div class="cartJsuan">
          <input onclick="javascript:document.location.href='http://www.lycheeStore.net'" class="goshop" value="Continue Shopping" type="button">
-         <input onclick="javascript:document.location.href='http://order.lycheeStore.net/order/order-cart.html'" class="jiesuan youxuan" value="Checkout" type="button">
+         <input onclick="javascript:document.location.href='http://localhost:8092/order/order-cart.html'" class="jiesuan youxuan" value="Checkout" type="button">
       </div>
     </div>
 </div>
