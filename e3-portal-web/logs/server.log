@@ -10063,3 +10063,15 @@ FrameworkServlet 'e3-portal-web': initialization completed in 10289 ms
 
 [WARN ] 2018-06-04 13:28:13,204 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1136)
 No mapping found for HTTP request with URI [/images/] in DispatcherServlet with name 'e3-portal-web'
+
+
+[WARN ] 2018-06-04 17:49:33,450 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1136)
+No mapping found for HTTP request with URI [/images/] in DispatcherServlet with name 'e3-portal-web'
+
+
+[WARN ] 2018-06-04 17:49:39,531 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1136)
+No mapping found for HTTP request with URI [/images/] in DispatcherServlet with name 'e3-portal-web'
+
+
+[WARN ] 2018-06-04 17:49:50,893 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1136)
+No mapping found for HTTP request with URI [/images/] in DispatcherServlet with name 'e3-portal-web'
