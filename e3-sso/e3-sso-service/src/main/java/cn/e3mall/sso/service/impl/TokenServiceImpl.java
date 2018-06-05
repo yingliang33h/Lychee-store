@@ -40,5 +40,11 @@ public class TokenServiceImpl implements TokenService {
 		TbUser user = JsonUtils.jsonToPojo(json, TbUser.class);
 		return E3Result.ok(user);
 	}
+	
+	@Override
+	public E3Result logout(String token) {
+		jedisClient.del("SESSION:" + token);
+		return E3Result.ok();
+	}
 
 }

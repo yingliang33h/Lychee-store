@@ -51,4 +51,17 @@ public class TokenController {
 		}
 		return result;
 	}
+	@RequestMapping(value="/user/logout/{token}")
+	@ResponseBody
+	public Object logout(@PathVariable String token, String callback) {
+		E3Result result = tokenService.logout(token);
+		//响应结果之前，判断是否为jsonp请求
+		if (StringUtils.isNotBlank(callback)) {
+			//把结果封装成一个js语句响应
+			MappingJacksonValue mappingJacksonValue = new MappingJacksonValue(result);
+			mappingJacksonValue.setJsonpFunction(callback);
+			return mappingJacksonValue;
+		}
+		return result;
+}
 }
