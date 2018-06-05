@@ -101,6 +101,11 @@ public class CartServiceImpl implements CartService {
 		jedisClient.hset(REDIS_CART_PRE + ":" + userId, itemId + "", JsonUtils.objectToJson(tbItem));
 		return E3Result.ok();
 	}
+	@Override
+	public E3Result getTotalNum(long userId, long itemId, int num) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 	@Override
 	public E3Result deleteCartItem(long userId, long itemId) {
@@ -115,6 +120,8 @@ public class CartServiceImpl implements CartService {
 		jedisClient.del(REDIS_CART_PRE + ":" + userId);
 		return E3Result.ok();
 	}
+
+
 	
 	
 

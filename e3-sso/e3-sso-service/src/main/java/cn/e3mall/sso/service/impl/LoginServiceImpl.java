@@ -3,6 +3,7 @@ package cn.e3mall.sso.service.impl;
 import java.util.List;
 import java.util.UUID;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -65,5 +66,5 @@ public class LoginServiceImpl implements LoginService {
 		 
 		return E3Result.ok(token);
 	}
-
+	
 }

@@ -13,6 +13,7 @@
 <link rel="stylesheet" type="text/css" href="/css/cart.css?v=20160630">
 <link rel="stylesheet" type="text/css" href="/css/common.css?v=201321222" />
 <script type="text/javascript" src="/js/jquery-1.5.1.min.js?v=20160713"></script>
+<script type="text/javascript" src="/js/cartHeader.js"></script>
 <title>Successfully added items to cart</title>
 </head>
 <body>
