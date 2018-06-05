@@ -107,8 +107,6 @@
 	</div>
       <div class="cartOrderCount" id="orderCount">
         <div class="cartButtons">
-          <input type="button" value="Delete selected" onclick="javascript:cartDelMore();" class="cartclear">
-          <input type="button" value="Clear cart" onclick="javascript:delAll('273fe391cb449af4');" class="cartclear">
         </div>
         <div class="cartTotalItem">
           <span id="all_shopePrice">(Delivery fee dose not included)</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 18px;font-weight: bold;">Total:</span>

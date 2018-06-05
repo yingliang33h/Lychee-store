@@ -77,7 +77,7 @@
 						<div class="clear"></div>
 						<li>
 							<div style="">
-								<a href="https://passport.e3mall.cn/reg/findpass/?returnUrl=http://www.e3mall.cn" class="forget-passWord">Forget password?</a>
+								<a href="" class="forget-passWord" onclick="alert(Coming Soon!)">Forget password?</a>
 							</div>
 						</li>
 						<li class="m-t5" id="btn_sub">
