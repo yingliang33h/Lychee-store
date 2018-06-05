@@ -6,8 +6,30 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>${item.title } - Lychee Store</title>
-	
-	<script src="/js/jquery-1.5.1.min.js?v=20160713" type="text/javascript"></script>
+	<script>
+        var _SF_CFG = {
+	    www_url:'http://www.lycheestore.net',
+            productId:${item.id},
+            number: 1600229585,
+            minBuy: 1,
+            maxBuy: 99,
+            presell:false,
+            presellId:0,
+            parentId: 0,
+            commentPage: 1,
+            sdPage: 1,
+            oneCategoryId: 6,
+            twoCategoryId: 7321,
+            threeCategoryId: 7331,
+            sfprice: 0,
+            price:0,
+            warehouse: 0,
+            homeurl: 'http://www.lycheestore.net',
+            businessModel: 3,
+		commentType : 0
+	};
+	</script>
+<script src="/js/jquery-1.5.1.min.js?v=20160713" type="text/javascript"></script>
 <script src="/js/jquery.alerts.js?v=20160713" type="text/javascript"></script>
 <script src="/js/common.js?v=20160713" type="text/javascript"></script>
 <script src="/js/cart.js?v=20160713" type="text/javascript"></script>
