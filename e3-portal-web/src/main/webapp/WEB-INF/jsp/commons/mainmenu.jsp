@@ -14,7 +14,7 @@
 							<h3 class="dev">
 								<p class="fresh"></p>
 								<a class="trackref"
-									href="http://search.lycheeStore.net/search.html?keyword=meat+%26+seefood"
+									href="http://search.lycheeStore.net/search.html?keyword=meat+%26+seafood"
 									fro_id="1" target="_blank"
 									name="sfbest_Uhead_Uhead_menu_category1-hot0">Meat &
 									Seafood</a>

@@ -205,13 +205,13 @@ codeArr[1]	='网站验证码不正确';
 dmArr[0]		='邀请码错误';
 agreeArr[0]	='have read and agree with the terms and conditions!';
 defaultArr[1]	='Please enter your email adress';
-defaultArr[2]	='Password must contain at least 6 charactors!';
+defaultArr[2]	='Password must contain at least 6 characters!';
 defaultArr[3]	='Please confirm your password';
 defaultArr[4]	='请输入短信验证码';
 defaultArr[5]	='请输入验证码';
 defaultArr[6]	='请输入您的优选单邀请码';
 defaultArr[7]	='';
-defaultArr[8]	='Please enter username started with a letter. Username is in 3-15 charactors.';
+defaultArr[8]	='Please enter username started with a letter. Username is in 3-15 characters.';
 defaultArr[9]	='The email has already registed！';
 defaultArr[10]	='此用户名已经被注册！请重新输入。';
 /*--------------------------------------------------企业注册数据---------------------------------------------------------*/

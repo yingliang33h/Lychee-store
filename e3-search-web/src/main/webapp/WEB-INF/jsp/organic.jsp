@@ -118,7 +118,7 @@
 						<h3>
 							<b></b><a
 								href="/productlist/search/?categoryId=6&amp;keyword=%E6%9C%88%E9%A5%BC&amp;o=saleNum%3Adesc"
-								class="">Seefood<span>（35）</span></a>
+								class="">Seafood<span>（35）</span></a>
 						</h3>
 						<ul>
 							<li><a

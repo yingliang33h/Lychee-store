@@ -108,7 +108,7 @@
 					</div>
 					<div class="catitem">
 						<h3>
-							<b></b><a onClick="alert('Coming Soon!')" class="">Seefood<span>（35）</span></a>
+							<b></b><a onClick="alert('Coming Soon!')" class="">Seafood<span>（35）</span></a>
 						</h3>
 
 					</div>

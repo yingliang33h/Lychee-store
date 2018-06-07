@@ -5,7 +5,7 @@ var E3MALL = {
 			return ;
 		}
 		$.ajax({
-			url : "http://localhost:8088/user/token/" + _ticket,
+			url : "http://sso.lycheeStore.net/user/token/" + _ticket,
 			dataType : "jsonp",
 			type : "GET",
 			success : function(data){
@@ -25,7 +25,7 @@ function doLogout() {
 			return ;
 		}
 		$.ajax({
-			url : "http://localhost:8088/user/logout/" + _ticket,
+			url : "http://sso.lycheeStore.net/user/logout/" + _ticket,
 			dataType : "jsonp",
 			type : "GET",
 			success : function(data){

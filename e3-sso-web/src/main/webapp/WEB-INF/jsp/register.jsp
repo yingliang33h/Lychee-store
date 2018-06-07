@@ -32,8 +32,7 @@
 
 	<!-- reg_main -->
 	<div class="tabBox clear">
-		<span class="reg_hide reg_show regMr5" id="regper">Persional
-			User</span> <span class="reg_hide" id="regcom" style="">Enterprise
+		<span class="reg_hide reg_show regMr5" id="regper">Personal
 			User</span>
 	</div>
 	<!--个人用户-->
@@ -57,7 +56,7 @@
 						onkeyup="ckpwd(0,1);" onblur="ckpwd(0,0);" /> <em></em>
 				</span> <span class="regInput" id="passwordErr"></span></li>
 				<li class="safetyLayer regPl191" id="pwdStrong"><font
-					style="font-size: 12px;">Security：</font><em class="default">Week</em><em
+					style="font-size: 12px;">Security：</font><em class="default">Weak</em><em
 					class="default">Medium</em><em class="default">Strong</em></li>
 
 				<li class="regMb30"><label><font>*</font>Confirm
@@ -80,9 +79,9 @@
 					style="margin-left: 29px"> <input id="AgreeId"
 						name="AgreeId" type="checkbox" checked="" onclick="ckAgree();">
 						<a href="https://passport.e3mall.cn/xy.html" target="_blank"
-						class="checkTitle">I've read and agree<font
-							style="font-size: 12px;">《LycheeStore Terms and
-								Conditions》</font></a></span> <span id="AgreeIdErr"></span></li>
+						class="checkTitle">I've read and agreed to <font
+							style="font-size: 12px;">LycheeStore Terms and
+								Conditions</font></a></span> <span id="AgreeIdErr"></span></li>
 				<li class="register regPl88 regMt10" id="sub_per"
 					style="margin-left: 29px"><input type="hidden" id="tjuid"
 					name="tjuid" value=""> <a href="javascript:void(0);"
