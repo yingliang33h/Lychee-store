@@ -479,9 +479,9 @@
     Goods.gotosun = function(pid, type) {
         $.post("/comments/isSunProduct/id/"+pid+"/ctype/"+type,null,function(data){
             if(data.data == 0){
-                jAlert(data.info,'提示信息');
+                jAlert(data.info,'Info');
             }else if(data.data == 2){
-                jAlert(data.info,'提示信息',function(e){
+                jAlert(data.info,'Info',function(e){
                     if(e){
                         SF.Widget.login();
                     }
@@ -497,8 +497,8 @@
     Goods.gotoPl = function () {
         $.post("/mark/isPlProduct/id/"+ _SF_CFG.productId +"/flag/0",null,function(data){
             if(data.data == 0){
-                //jAlert(data.info,'提示信息');
-				$.alerts.okButton = '确定';
+                //jAlert(data.info,'Info');
+				$.alerts.okButton = 'OK';
 				jAlertNew(1, 0, 368, '<div class="sd_word1">'+data.info+'</div>', '提示');
 				$.cookie('flagComment','', { expires:-1});
             }else if(data.data == 2){

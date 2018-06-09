@@ -114,7 +114,7 @@
             {% if (!i) { %}
                 <button class="btn btn-warning cancel">
                     <i class="glyphicon glyphicon-ban-circle"></i>
-                    <span>取消</span>
+                    <span>Cancel</span>
                 </button>
             {% } %}
         </td>

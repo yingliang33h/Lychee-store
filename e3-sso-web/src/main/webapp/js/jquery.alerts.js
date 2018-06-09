@@ -85,28 +85,28 @@
 		overlayOpacity: .01,                // transparency level of overlay
 		overlayColor: '#89652b',               // base color of overlay
 		draggable: true,                    // make the dialogs draggable (requires UI Draggables plugin)
-		okButton: '&nbsp;确定&nbsp;',         // text for the OK button
-		cancelButton: '&nbsp;取消&nbsp;', // text for the Cancel button
+		okButton: '&nbsp;OK&nbsp;',         // text for the OK button
+		cancelButton: '&nbsp;Cancel&nbsp;', // text for the Cancel button
 		dialogClass: null,                  // if specified, this class will be applied to all dialogs
 		
 		// Public methods
 		
 		alert: function(message, title, callback) {
-			if( title == null ) title = '提示信息';
+			if( title == null ) title = 'Info';
 			$.alerts._show(title, message, null, 'alert', function(result) {
 				if( callback ) callback(result);
 			});
 		},
 		
 		confirm: function(message, title, callback) {
-			if( title == null ) title = '确认信息';
+			if( title == null ) title = 'Comfirm';
 			$.alerts._show(title, message, null, 'confirm', function(result) {
 				if( callback ) callback(result);
 			});
 		},
 			
 		prompt: function(message, value, title, callback) {
-			if( title == null ) title = '输入信息';
+			if( title == null ) title = 'Info';
 			$.alerts._show(title, message, value, 'prompt', function(result) {
 				if( callback ) callback(result);
 			});
@@ -154,7 +154,7 @@
 			
 			switch( type ) {
 				case 'alert':
-					$("#popup_message").after('<div id="popup_panel"><input type="button" value="' + $.alerts.okButton + '" id="popup_ok" class="submit1" /></div>');
+					$("#popup_message").after('<div id="popup_panel"><input type="button" value="OK" id="popup_ok" class="submit1" /></div>');
 					$("#popup_ok").click( function() {
 						$.alerts._hide();
 						Shade.hide();

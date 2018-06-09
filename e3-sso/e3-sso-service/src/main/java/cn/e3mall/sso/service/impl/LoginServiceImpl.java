@@ -45,14 +45,14 @@ public class LoginServiceImpl implements LoginService {
 		List<TbUser> list = userMapper.selectByExample(example);
 		if (list == null || list.size() == 0) {
 			//返回登录失败
-			return E3Result.build(400, "用户名或密码错误");
+			return E3Result.build(400, " Invalid username or invalid password");
 		}
 		//取用户信息
 		TbUser user = list.get(0);
 		//判断密码是否正确
 		if (!DigestUtils.md5DigestAsHex(password.getBytes()).equals(user.getPassword())) {
 			// 2、如果不正确，返回登录失败
-			return E3Result.build(400, "用户名或密码错误");
+			return E3Result.build(400, " Invalid username or invalid password");
 		}
 		// 3、如果正确生成token。
 		String token = UUID.randomUUID().toString();

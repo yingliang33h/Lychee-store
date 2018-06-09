@@ -425,14 +425,14 @@
 	};
 
 	jAlertNew = function(showX, showP, width, message, title, callback) {
-		if( title == null ) title = '提示信息';
+		if( title == null ) title = 'Info';
 		$.alerts._showNew(showX, showP, width, title, message, null, 'alert', function(result) {
 			if( callback ) callback(result);
 		});
 	}
 
 	jConfirmNew = function(showX, showP, width, message, title, callback) {
-		if( title == null ) title = '提示信息';
+		if( title == null ) title = 'Info';
 		$.alerts._showNew(showX, showP, width, title, message, null, 'confirm', function(result) {
 			if( callback ) callback(result);
 		});

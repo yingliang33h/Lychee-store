@@ -62,7 +62,7 @@ KindEditor.lang({
 	template : '插入樣板',
 	anchor : '錨點',
 	yes : '確定',
-	no : '取消',
+	no : 'Cancel',
 	close : '關閉',
 	editImage : '影像屬性',
 	deleteImage : '刪除影像',

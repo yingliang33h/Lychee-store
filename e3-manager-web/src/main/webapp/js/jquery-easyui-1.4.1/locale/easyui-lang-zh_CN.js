@@ -10,8 +10,8 @@ if ($.fn.treegrid && $.fn.datagrid){
 	$.fn.treegrid.defaults.loadMsg = $.fn.datagrid.defaults.loadMsg;
 }
 if ($.messager){
-	$.messager.defaults.ok = '确定';
-	$.messager.defaults.cancel = '取消';
+	$.messager.defaults.ok = 'OK';
+	$.messager.defaults.cancel = 'Cancel';
 }
 $.map(['validatebox','textbox','filebox','searchbox',
 		'combo','combobox','combogrid','combotree',
@@ -34,7 +34,7 @@ if ($.fn.calendar){
 if ($.fn.datebox){
 	$.fn.datebox.defaults.currentText = '今天';
 	$.fn.datebox.defaults.closeText = '关闭';
-	$.fn.datebox.defaults.okText = '确定';
+	$.fn.datebox.defaults.okText = 'OK';
 	$.fn.datebox.defaults.formatter = function(date){
 		var y = date.getFullYear();
 		var m = date.getMonth()+1;

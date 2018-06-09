@@ -211,7 +211,7 @@ defaultArr[4]	='请输入短信验证码';
 defaultArr[5]	='请输入验证码';
 defaultArr[6]	='请输入您的优选单邀请码';
 defaultArr[7]	='';
-defaultArr[8]	='Please enter username started with a letter. Username is in 3-15 characters.';
+defaultArr[8]	='Please enter username started with a letter. Username is in 4-15 characters.';
 defaultArr[9]	='The email has already registed！';
 defaultArr[10]	='此用户名已经被注册！请重新输入。';
 /*--------------------------------------------------企业注册数据---------------------------------------------------------*/

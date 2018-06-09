@@ -25,15 +25,15 @@
 <body>
 	<!-- header -->
 	<div class="header">
-		<a href="http://www.e3mall.cn"><img src="/images/logo.png"
+		<a href="http://www.lycheestore.net"><img src="/images/logo.png"
 			border="0" /><span></span></a>
 	</div>
 
 
 	<!-- reg_main -->
 	<div class="tabBox clear">
-		<span class="reg_hide reg_show regMr5" id="regper">Personal
-			User</span>
+		<span class="reg_hide reg_show regMr5" id="regper">Sign
+			Up</span>
 	</div>
 	<!--个人用户-->
 	<div class="reg_main reg_border regTab" id="perDiv">
@@ -56,8 +56,7 @@
 						onkeyup="ckpwd(0,1);" onblur="ckpwd(0,0);" /> <em></em>
 				</span> <span class="regInput" id="passwordErr"></span></li>
 				<li class="safetyLayer regPl191" id="pwdStrong"><font
-					style="font-size: 12px;">Security：</font><em class="default">Weak</em><em
-					class="default">Medium</em><em class="default">Strong</em></li>
+					style="font-size: 12px;"></li>
 
 				<li class="regMb30"><label><font>*</font>Confirm
 						Password：</label> <span class="regM defaultBorder"> <input
@@ -97,7 +96,7 @@
 	<!--footerStart-->
 	<div class="footer">
 		<p>
-			Copyright© Lychee Store<br />
+			This website is created by Sylvia(Ying) Liang<br />
 		</p>
 	</div>
 	<!-- /footer -->
