@@ -130,7 +130,7 @@
 								<script type="text/javascript"> 
 									jQuery('#qrcodeTableBig1').qrcode({
 										render	: "table",
-										text	: "http://www.e3mall.cn/html/products/230/1600229585.html",
+										text	: "http://www.lycheestore.net",
 										width:"124",
 										height:"124"
 									});	

@@ -507,3 +507,17 @@ img.lazy,img.lazy_load{background:url(../images/g_loading.png) no-repeat 50% 50%
 .yxgj_m0{ margin-left:12px;}
 .yxgj_m1{ margin-left:5px;}
 .yxgj_tipsTitle{ color:#FB8E19; padding:10px 0;}
+/*--报错--*/
+.error_cont{position:relative; padding:0px 0px 20px 0px;}
+.error_box{background:#fff;padding:12px;text-align:left;height:180px;width:900px; padding:20px;margin:20px 0px 0px 40px; line-height:40px; font-family:"微软雅黑"}
+.error_tj{background:#fff;padding:12px;text-align:left;width:900px; padding:20px; border:1px solid #eee;margin:20px 0px 0px 40px; line-height:22px; font-family:"微软雅黑"}
+.error_tj .title{border-bottom:1px solid #eee;margin:auto; line-height:20px; font-family:"微软雅黑"; font-weight:bold;height:22px;font-size:14px}
+.error_tj .title span{border-bottom:2px solid #1b6147;height:22px; display:block;width:150px;}
+
+
+.error_box h2{font-size:35px;color:#7c7c7c; padding:50px 0px 0px 0px;margin:0px;}
+.error_box a{font-size:25px;color:#0000cc;text-decoration:underline}
+.error_box a:hover{ text-decoration:none}
+.error_box p{font-size:22px;}
+#totalSecond{font-size:30px;font-weight:bold;color:red;}
+.error_box img{float:left;margin-right:20px;}

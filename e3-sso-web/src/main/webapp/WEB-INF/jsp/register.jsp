@@ -77,7 +77,7 @@
 				<li class="regPl88"><span class="regM"
 					style="margin-left: 29px"> <input id="AgreeId"
 						name="AgreeId" type="checkbox" checked="" onclick="ckAgree();">
-						<a href="https://passport.e3mall.cn/xy.html" target="_blank"
+						<a href="javascript:void(0)" target="_blank"
 						class="checkTitle">I've read and agreed to <font
 							style="font-size: 12px;">LycheeStore Terms and
 								Conditions</font></a></span> <span id="AgreeIdErr"></span></li>

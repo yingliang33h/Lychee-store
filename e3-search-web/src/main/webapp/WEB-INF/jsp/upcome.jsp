@@ -15,7 +15,7 @@
 <meta name="format-detection" content="telephone=no" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="/css/common.css?v=20160713" />
-<link rel="stylesheet" type="text/css" href="/css/all.css?v=20160713" />
+<link rel="stylesheet" type="text/css" href="/css/base_w1200.css"/>
 <link rel="stylesheet" type="text/css" href="/css/jquery.alerts.css" />
 <title>Error -Lychee Store</title>
 <jsp:include page="commons/header.jsp" />

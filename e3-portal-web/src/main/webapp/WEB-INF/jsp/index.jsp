@@ -12,7 +12,6 @@
 	content="LycheeStore-All kinds of quality food from around the world">
 <meta name="Description"
 	content="LycheeStore-All kinds of quality food from around the world.">
-<link rel="dns-prefetch" href="//pic.e3mall.cn">
 <meta property="wb:webmaster" content="3a008ad947166307">
 <link rel="stylesheet" type="text/css"
 	href="/css/base_w1200.css?v=2016071333">

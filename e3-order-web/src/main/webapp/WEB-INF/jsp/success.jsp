@@ -27,7 +27,7 @@
 	<!--shortcut end-->
 	<div class="logoPay">
 		<div class="logoPayBox">
-			<a href="http://www.e3mall.cn"><img src="/images/logo66.png"
+			<a href="http://www.lycheestore.net"><img src="/images/logo66.png"
 				width="345" height="73" border="0"></a>
 		</div>
 	</div>
