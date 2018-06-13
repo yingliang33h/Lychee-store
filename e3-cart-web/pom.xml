@@ -107,7 +107,7 @@
 				<configuration>
 					<path>/</path>
 					<port>8090</port>
-					<url>http://13.78.130.164:8082/manager/text</url>
+					<url>http://192.168.239.137:8082/manager/text</url>
 					<username>tomcat</username>
 					<password>tomcat</password>
 				</configuration>

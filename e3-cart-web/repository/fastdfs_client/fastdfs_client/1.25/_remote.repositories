@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Mar 23 01:45:44 PDT 2018
+fastdfs_client-1.25.pom>=
+fastdfs_client-1.25.jar>=

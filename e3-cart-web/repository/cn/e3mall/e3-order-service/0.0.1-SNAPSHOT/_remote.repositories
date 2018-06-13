@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon May 07 00:39:16 PDT 2018
+e3-order-service-0.0.1-SNAPSHOT.war>=
+e3-order-service-0.0.1-SNAPSHOT.pom>=

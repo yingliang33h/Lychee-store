@@ -10,11 +10,11 @@
 
 	<!-- 单机版solrJ -->
 	<bean id="httpSolrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer">
-		<constructor-arg index="0" value="http://13.78.131.70:8080/solr/collection1"/>
+		<constructor-arg index="0" value="http://192.168.239.133:8080/solr/collection1"/>
 	</bean>
 	<!-- 集群版solrJ -->
 	<!-- <bean id="cloudSolrServer" class="org.apache.solr.client.solrj.impl.CloudSolrServer">
-		<constructor-arg index="0" value="13.78.131.70:2181,:2182,:2183"></constructor-arg>
+		<constructor-arg index="0" value="192.168.239.133:2181,:2182,:2183"></constructor-arg>
 		<property name="defaultCollection" value="collection2"></property>
 	</bean> -->
 </beans>

@@ -156,19 +156,19 @@ Client environment:user.dir=C:\Users\v-lianyi\LycheeStore\git\e3-portal-web
 
 
 [INFO ] 2018-06-05 13:40:54,232 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
-Initiating client connection, connectString=13.78.131.70:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@46e99d5c
+Initiating client connection, connectString=192.168.239.133:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@46e99d5c
 
 
 [INFO ] 2018-06-05 13:40:54,295 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
-Opening socket connection to server 13.78.131.70/13.78.131.70:2181. Will not attempt to authenticate using SASL (unknown error)
+Opening socket connection to server 13.78.131.70/192.168.239.133:2181. Will not attempt to authenticate using SASL (unknown error)
 
 
 [INFO ] 2018-06-05 13:40:54,560 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
-Socket connection established to 13.78.131.70/13.78.131.70:2181, initiating session
+Socket connection established to 13.78.131.70/192.168.239.133:2181, initiating session
 
 
 [INFO ] 2018-06-05 13:40:54,622 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
-Session establishment complete on server 13.78.131.70/13.78.131.70:2181, sessionid = 0x163cc5fe193006d, negotiated timeout = 30000
+Session establishment complete on server 13.78.131.70/192.168.239.133:2181, sessionid = 0x163cc5fe193006d, negotiated timeout = 30000
 
 
 [INFO ] 2018-06-05 13:40:54,623 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
@@ -275,7 +275,7 @@ com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://10.0.1.17:2088
 
 
 [INFO ] 2018-06-05 13:41:00,434 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
- [DUBBO] Refer dubbo service cn.e3mall.content.service.ContentService from url zookeeper://13.78.131.70:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3-portal-web&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=addContent,updateContent,getContentListByCid,getContentListByCatId,deleteContentByIds&pid=6548&revision=0.0.1-SNAPSHOT&side=consumer&timeout=600000&timestamp=1528231249566, dubbo version: 2.5.3, current host: 192.168.239.1
+ [DUBBO] Refer dubbo service cn.e3mall.content.service.ContentService from url zookeeper://192.168.239.133:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3-portal-web&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=addContent,updateContent,getContentListByCid,getContentListByCatId,deleteContentByIds&pid=6548&revision=0.0.1-SNAPSHOT&side=consumer&timeout=600000&timestamp=1528231249566, dubbo version: 2.5.3, current host: 192.168.239.1
 
 
 [INFO ] 2018-06-05 13:41:00,802 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
